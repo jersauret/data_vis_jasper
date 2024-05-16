@@ -4,9 +4,9 @@ from process_locations import process_locations
 from merge_dataframes import merge_dataframes
 
 if __name__ == "__main__":
-    ventes_file = "ventes.csv"
-    locations_file = "loyers_2020.csv"
-    postal_codes_file = "base-officielle-des-codes-postaux-en-occitanie.csv"  # Path to the CSV file containing all postal codes
+    ventes_file = "rawfiles/old/ventes.csv"
+    locations_file = "rawfiles/old/loyers_2020.csv"
+    postal_codes_file = "rawfiles/codes_postaux/base-officielle-des-codes-postaux-en-occitanie.csv"  # Path to the CSV file containing all postal codes
     ventes_delimiter = ','  # Change to the delimiter used in the ventes file
     locations_delimiter = ';'  # Change to the delimiter used in the locations file
 
